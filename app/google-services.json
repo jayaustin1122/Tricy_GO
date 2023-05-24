@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "407902089122",
+    "project_id": "tricygo-e7654",
+    "storage_bucket": "tricygo-e7654.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407902089122:android:d3020d63e97930dfe04cfb",
+        "android_client_info": {
+          "package_name": "com.example.tricygo_final"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "407902089122-a9di8p8qj3nqvti29e5h7seqha92o98v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7qB0RN7mcnaIMcCqPDhPAS-nJRhnOzdk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "407902089122-a9di8p8qj3nqvti29e5h7seqha92o98v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
