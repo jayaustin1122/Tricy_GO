@@ -7,6 +7,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
+import androidx.cardview.widget.CardView
+import androidx.core.content.ContextCompat
 import com.example.tricygo_final.R
 import com.example.tricygo_final.databinding.FragmentHomeBinding
 

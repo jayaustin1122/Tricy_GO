@@ -125,6 +125,7 @@ class MyBottomSheetDialogFragment : BottomSheetDialogFragment() {
         val tricyModel = TricycleModel(
             uid = uid,
             name = name,
+            price = price,
             description = description,
             image = imgUrl,
             currentDate = currentDate,

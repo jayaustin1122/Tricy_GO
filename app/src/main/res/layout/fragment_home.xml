@@ -44,7 +44,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.517"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardView" />
+        app:layout_constraintTop_toBottomOf="@+id/cardView"
+        tools:listitem="@layout/item_tricycle_row" />
 
     <TextView
         android:id="@+id/textView3"
@@ -65,17 +66,33 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"/>
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rc2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="40dp"
+            tools:listitem="@layout/item_tradein_row"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.5" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fabAdd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:clickable="true"
         android:layout_margin="20dp"
-        android:tint="@android:color/white"
+        android:clickable="true"
         android:focusable="true"
         android:src="@drawable/baseline_add_24"
+        android:tint="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -84,8 +101,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:focusable="true"
-        android:visibility="invisible"
         android:text="Trade-in"
+        android:visibility="invisible"
         app:layout_constraintBottom_toTopOf="@+id/btnAddTricycle"
         app:layout_constraintEnd_toEndOf="@+id/btnAddTricycle" />
 
@@ -94,8 +111,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:focusable="true"
-        android:visibility="invisible"
         android:text="tricycle"
+        android:visibility="invisible"
         app:layout_constraintBottom_toTopOf="@+id/btnAddOns"
         app:layout_constraintEnd_toEndOf="@+id/btnAddOns" />
 
@@ -103,9 +120,9 @@
         android:id="@+id/btnAddOns"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:focusable="true"
         android:text="Add-ons"
         android:visibility="invisible"
-        android:focusable="true"
         app:layout_constraintBottom_toTopOf="@+id/fabAdd"
         app:layout_constraintEnd_toEndOf="@+id/fabAdd" />
 </androidx.constraintlayout.widget.ConstraintLayout>

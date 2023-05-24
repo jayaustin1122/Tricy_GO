@@ -122,6 +122,7 @@ class AddOns : BottomSheetDialogFragment()  {
         val addOns = AddOnModel(
             uid = uid,
             name = name,
+            price = price,
             description = description,
             image = imgUrl,
             currentDate = currentDate,

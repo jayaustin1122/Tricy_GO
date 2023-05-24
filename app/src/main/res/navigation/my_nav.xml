@@ -80,4 +80,18 @@
         android:name="com.example.tricygo_final.user.UserFragment"
         android:label="fragment_user"
         tools:layout="@layout/fragment_user" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.tricygo_final.admin.tabs.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_tricyDetailsFragment"
+            app:destination="@id/tricyDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tricyDetailsFragment"
+        android:name="com.example.tricygo_final.admin.tabs.TricyDetailsFragment"
+        android:label="fragment_tricy_details"
+        tools:layout="@layout/fragment_tricy_details" />
 </navigation>

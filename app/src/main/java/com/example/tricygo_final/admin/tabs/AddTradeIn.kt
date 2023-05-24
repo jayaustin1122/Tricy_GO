@@ -121,6 +121,7 @@ class AddTradeIn: BottomSheetDialogFragment() {
         val tradeIn = TradeInModel(
             uid = uid,
             name = name,
+            price = price,
             description = description,
             image = imgUrl,
             currentDate = currentDate,
