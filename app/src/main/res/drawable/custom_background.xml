@@ -1,0 +1,5 @@
+<!-- custom_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Define your desired background, e.g., a solid color -->
+    <solid android:color="@color/bg2" />
+</shape>

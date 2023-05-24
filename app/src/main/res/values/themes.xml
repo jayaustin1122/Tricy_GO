@@ -13,4 +13,9 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+    <style name="BottomNavigationIconStyle">
+        <item name="android:textSize">15sp</item> <!-- Adjust the text size as per your requirement -->
+        <item name="android:drawablePadding">4dp</item> <!-- Adjust the padding between the icon and text -->
+    </style>
+
 </resources>
